@@ -1,5 +1,5 @@
 <?php
-//declare variables PHP and set to  empty values
+//declare variables PHP and set to empty values
 $amount_in_euros=$amount_in_pounds=0;
 $rate=0.89;
 //define your functions here
@@ -19,21 +19,26 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
  }
 
 ?>
+
 <html>
 <head>
 <title>Currency converter</title>
 <meta http-equiv="Content-Type" content="text/html;charset-UTF-8">
 </head>
 <body>
+
 <h2>Currency converter</h2>
+
 <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
 EUROS:
-<input type="text" name="amount_in_euros" value="<?php echo $amount_in_euros;?>"><br>
+<input type="text" name="amount_in_euros" value="<?php echo $amount_in_euros;?>"><br><p>
 EXCHANGE RATE:
-<input type="text" name="rate" value="<?php echo $rate;?>"><br>
+<input type="text" name="rate" value="<?php echo $rate;?>"><br><p>
 POUNDS:
-<input type="text" name="amount_in_pounds" value="<?php echo $amount_in_pounds;?>"><br>
-<input type="submit" value="Submit">
+<input type="text" name="amount_in_pounds" value="<?php echo "Conversion test = ".(($_POST['amount_in_euros'])*$rate);?>"><br><p>
+
+<input type="submit" value="Submit"><p>
+
 </form>
 </body>
 </html>
