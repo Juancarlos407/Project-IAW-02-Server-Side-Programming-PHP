@@ -2,6 +2,10 @@
 
 Este proyecto esta compuesto por cuatro partes distintas:
 
+## 0- Index:
+
+- A main page that links with the other 4. ok
+
 ## 1- Exception management:
 
 - Add the coding needed to convert euros into pounds.
@@ -39,14 +43,14 @@ After coding the question 6.1, call the function remove_destroy_session
 ## 4- Data encryption with PHP:
 
 Add the needed code to dataEncryption.php file to:
-- encrypt the following password = IEDIB_GS0376
-- using the function PHP hash with the algorithm sha256,
-- show the encrypted result in the screen
+- encrypt the following password = IEDIB_GS0376 ok
+- using the function PHP hash with the algorithm sha256, ok
+- show the encrypted result in the screen ok
 
 Add the needed code to dataEncryption.php file to:
-- encrypt the provided file proves_data_encryption.odt
-- using the function PHP hash_file with the algorithm sha1,
-- show the encrypted result in the screen
+- encrypt the provided file proves_data_encryption.odt ok
+- using the function PHP hash_file with the algorithm sha1, ok
+- show the encrypted result in the screen ok
 
 Write the code you need to:
 - extract the public key form a certificate saved in $certificate variable
@@ -62,4 +66,4 @@ Write the code you need to:
 
 ## Para hacer comprobaciones:
 
-Puedes Probar la web [Aquí]()
+Puedes Probar la web [Aquí](https://fandoshotel.000webhostapp.com/index.html)
