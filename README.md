@@ -14,7 +14,7 @@ Este proyecto esta compuesto por cuatro partes distintas:
 Added the coding needed to set cookies as follows:
 - cookie name: user
 - cookie value: firstname value plus lastname value separated by a space
-- cookie expire time is: 24 hours
+- cookie expire time is: 24h
 
 Added the coding needed to show in the screen:
 - the name, value and expire time of the cookie in case the cookie is set
