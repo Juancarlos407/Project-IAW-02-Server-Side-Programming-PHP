@@ -8,10 +8,10 @@ Este proyecto esta compuesto por cuatro partes distintas:
 
 ## 1- Exception management:
 
-- Add the coding needed to convert euros into pounds.
-- Add a Exception management, when a user types a rate exchange = 0 Catch it and show the exception message with code in the screen.
-- Add a text area control in the form where showing an explanation about the error. 
-- The result of the convertion calculated has to be shown in the input text named amount_in_pounds
+- Add the coding needed to convert euros into pounds. ok
+- Add a Exception management, when a user types a rate exchange = 0 Catch it and show the exception message with code in the screen. ok
+- Add a text area control in the form where showing an explanation about the error. ok
+- The result of the convertion calculated has to be shown in the input text named amount_in_pounds ok
 
 ## 2- Cookies management:
 
