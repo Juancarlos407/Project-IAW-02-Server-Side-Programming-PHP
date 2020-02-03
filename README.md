@@ -27,18 +27,17 @@ Added the coding needed to show in the screen:
 ## 3- Session variables management:
 
 Add the coding needed to set a session variables as follows:
-- session variable name user with the value typed in the user input text
-- session variable name password with the value typed in the pass input text
+- session variable name user with the value typed in the user input text ok
+- session variable name password with the value typed in the pass input text ok
 
 Add the coding needed to show in the screen:
-- the name and value of the two session variables in case those vars are set.
-- and the message "session vars are not set" when those vars haven't been set yet.
+- the name and value of the two session variables in case those vars are set. ok
+- and the message "session vars are not set" when those vars haven't been set yet. ok
 
 Develop a function called remove_destroy_session and implement the code to:
-- remove all session variables. Tip:
-- destroy all session variables
-
-After coding the question 6.1, call the function remove_destroy_session
+- remove all session variables. ok
+- destroy all session variables. ok
+- After coding the questions, call the function remove_destroy_session ok
 
 ## 4- Data encryption with PHP:
 
