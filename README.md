@@ -16,13 +16,13 @@ Este proyecto esta compuesto por cuatro partes distintas:
 ## 2- Cookies management:
 
 Added the coding needed to set cookies as follows:
-- cookie name: user
-- cookie value: firstname value plus lastname value separated by a space
-- cookie expire time is: 24h
+- cookie name: user ok
+- cookie value: firstname value plus lastname value separated by a space ok
+- cookie expire time is: 24h ok
 
 Added the coding needed to show in the screen:
-- the name, value and expire time of the cookie in case the cookie is set
-- and the message "cookie is not set" when the cookie hasn't been set yet.
+- the name, value and expire time of the cookie in case the cookie is set ok
+- and the message "cookie is not set" when the cookie hasn't been set yet. ok
 
 ## 3- Session variables management:
 
