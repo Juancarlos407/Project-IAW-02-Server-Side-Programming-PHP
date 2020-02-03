@@ -4,7 +4,7 @@ Este proyecto esta compuesto por cuatro partes distintas:
 
 ## 0- Index:
 
-- A main page that links with the other 4. ok
+- A main page. ok
 
 ## 1- Exception management:
 
@@ -53,16 +53,16 @@ Add the needed code to dataEncryption.php file to:
 - show the encrypted result in the screen ok
 
 Write the code you need to:
-- extract the public key form a certificate saved in $certificate variable
-- save the public key content in the variable $publicKey
+- extract the public key form a certificate saved in $certificate variable ok
+- save the public key content in the variable $publicKey ok
 
 Write the code you need to:
-- extract the private key form a certificate saved in $certificate variable
-- save the private key content in the variable $privateKey
+- extract the private key form a certificate saved in $certificate variable ok
+- save the private key content in the variable $privateKey ok
 
 Write the code you need to:
-- Extract de identification from a certificate file, supplied by x509certdata, saved in the variable $certificateFile
-- Save that id content in the variable $certificateId
+- Extract de identification from a certificate file, supplied by x509certdata, saved in the variable $certificateFile ok
+- Save that id content in the variable $certificateId ok
 
 ## Para hacer comprobaciones:
 
