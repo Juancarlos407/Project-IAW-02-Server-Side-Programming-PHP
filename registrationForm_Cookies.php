@@ -1,20 +1,25 @@
-
 <?php
+error_reporting(E_ALL ^ E_NOTICE);
+
 //declare variables PHP and set to  empty values
-$cookie_name = 'User';
-$cookie_value = "Juan Fandos";
-//define your functions here
-setcookie($cookie_name, $cookie_value, time() + (86400), "/"); // 86400s are 24h
+$cookie_name = "user";
+$cookie_value = $_POST['firstname'];
+$cookie_value2 = $_POST['lastname'];
+
+//You cannot read the cookie expiry time, because browsers do not send it to your server, only the value of cookies.
+$CookieInfo = session_get_cookie_params();
+
+//establecemos las cookies y el tiempo que perdurarán
+setcookie($cookie_name, $cookie_value, $cookie_value2, time() + (86400), "/"); // 86400s are 24h
+
 //catching the action method and vars from request here
 if($_SERVER["REQUEST_METHOD"]=="POST"){
-  //asign value to variables here
-  //call the functions you need here
-  //write your code here
-  if(!isset($_COOKIE[$cookie_name])) {
-      echo "Cookie name '" . $cookie_name . "' is not set";
+
+  //creamos la condición para mostrar en pantalla si se han establecido o no las cookies
+  if( $cookie_value != null and $cookie_value2 != null ) {
+      echo "Cookie ".$cookie_name . " with value ". $cookie_value . " ". $cookie_value2 ." is set, it will last 24h. <br>";
   } else {
-      echo "Cookie '" . $cookie_name . "' is set<br>";
-      echo "Value is: " . $_COOKIE[$cookie_name];
+      echo "Cookie is not set, fill first name and last name to try.<br>";
   }
   }
   ?>
@@ -24,7 +29,16 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 	<title>Registration Form</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
+
 <body>
+  <style>
+  body {
+    background-image: url('Marca de agua.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  </style>
 
     <h2>Registration Form</h2>
 
@@ -40,7 +54,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     <input type="text" name="pass"> <p>
 
     <input type="submit" value="Submit"> <br><p>
-
     </form>
+
 </body>
 </html>
